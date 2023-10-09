@@ -4,10 +4,10 @@ Sejtek mezo = new();
 
 Console.Clear();
 
-for (int i = 0; i < 40; i++)
+for (int i = 0; i < 75; i++)
 {
-    for (int j = 0; j < 40; j++)
+    for (int j = 0; j < 75; j++)
     {
-        Console.Write(mezo.mezo[i,j]);
+        Console.Write(mezo.mezo[i, j]);
     }
 }
