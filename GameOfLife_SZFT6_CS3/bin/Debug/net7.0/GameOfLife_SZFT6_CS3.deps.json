@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GameOfLife_SZFT6_CS3/1.0.0": {
+        "runtime": {
+          "GameOfLife_SZFT6_CS3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameOfLife_SZFT6_CS3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
