@@ -12,3 +12,17 @@ C:\Users\rafae\OneDrive\Asztali gép\zgit\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\
 C:\Users\rafae\OneDrive\Asztali gép\zgit\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.pdb
 C:\Users\rafae\OneDrive\Asztali gép\zgit\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.genruntimeconfig.cache
 C:\Users\rafae\OneDrive\Asztali gép\zgit\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\ref\GameOfLife_SZFT6_CS3.dll
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\bin\Debug\net7.0\GameOfLife_SZFT6_CS3.exe
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\bin\Debug\net7.0\GameOfLife_SZFT6_CS3.deps.json
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\bin\Debug\net7.0\GameOfLife_SZFT6_CS3.runtimeconfig.json
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\bin\Debug\net7.0\GameOfLife_SZFT6_CS3.dll
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\bin\Debug\net7.0\GameOfLife_SZFT6_CS3.pdb
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.dll
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\refint\GameOfLife_SZFT6_CS3.dll
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.pdb
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\GameOfLife_SZFT6_CS3.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Asztali gép\zgit\github\GameOfLife_SZFT6_CS3\obj\Debug\net7.0\ref\GameOfLife_SZFT6_CS3.dll

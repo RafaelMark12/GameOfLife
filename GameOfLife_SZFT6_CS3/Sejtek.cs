@@ -9,11 +9,13 @@ namespace GameOfLife_SZFT6_CS3
     internal class Sejtek
     {
         public int[,] mezo = new int[75, 75];
-        public ConsoleKeyInfo billentyukulcs = Console.ReadKey();
+        public ConsoleKeyInfo billentyukulcs;
 
 
         public Sejtek()
         {
+            Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: ");
+            billentyukulcs = Console.ReadKey();
             for (int i = 0; i < 75; i++)
             {
                 for (int j = 0; j < 75; j++)
@@ -21,7 +23,7 @@ namespace GameOfLife_SZFT6_CS3
                     mezo[i, j] = 0;
                 }
             }
-
+            
             switch (billentyukulcs.KeyChar)
             {
                 case '1':
