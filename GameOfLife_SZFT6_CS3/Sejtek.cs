@@ -8,22 +8,26 @@ namespace GameOfLife_SZFT6_CS3
 {
     internal class Sejtek
     {
+        //Alapadatok
         public int[,] mezo = new int[75, 75];
         public ConsoleKeyInfo billentyukulcs;
-
+        int sejtvaltozas = 0;
+        public int Sejtvaltozas { get { return sejtvaltozas; } set { sejtvaltozas = value; } }
 
         public Sejtek()
         {
             Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: ");
             billentyukulcs = Console.ReadKey();
-            for (int i = 0; i < 75; i++)
+            for (int sor = 0; sor < 75; sor++)
             {
-                for (int j = 0; j < 75; j++)
+                for (int oszlop = 0; oszlop < 75; oszlop++)
                 {
-                    mezo[i, j] = 0;
+                    mezo[sor, oszlop] = 0;
                 }
             }
             
+
+            //Kezdeti érték beállítása
             switch (billentyukulcs.KeyChar)
             {
                 case '1':
