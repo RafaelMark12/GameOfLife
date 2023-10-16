@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {},
-    "D:\\Visual_Studi_2022\\Shared_components\\NuGetPackages": {}
+    "C:\\Users\\hunsz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\newgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
+      "projectUniqueName": "C:\\Users\\hunsz\\Source\\Repos\\GameOfLife\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
       "projectName": "GameOfLife_SZFT6_CS3",
-      "projectPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\newgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\newgit\\GameOfLife_SZFT6_CS3\\obj\\",
+      "projectPath": "C:\\Users\\hunsz\\Source\\Repos\\GameOfLife\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
+      "packagesPath": "C:\\Users\\hunsz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hunsz\\Source\\Repos\\GameOfLife\\GameOfLife_SZFT6_CS3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual_Studi_2022\\Shared_components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hunsz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
