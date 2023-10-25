@@ -16,7 +16,7 @@ namespace GameOfLife_SZFT6_CS3
 
         public Sejtek()
         {
-            Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: \n");
+            Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: ");
             billentyukulcs = Console.ReadKey();
             for (int sor = 0; sor < 75; sor++)
             {
@@ -25,7 +25,7 @@ namespace GameOfLife_SZFT6_CS3
                     mezo[sor, oszlop] = 0;
                 }
             }
-            
+
 
             //Kezdeti érték beállítása
             switch (billentyukulcs.KeyChar)
@@ -33,145 +33,48 @@ namespace GameOfLife_SZFT6_CS3
                 case '1':
                     mezo[11, 11] = 1;
                     mezo[11, 12] = 1;
+                    mezo[11, 11] = 1;
                     mezo[11, 13] = 1;
-                    mezo[12, 10] = 1;
-                    mezo[12, 14] = 1;
-                    mezo[13, 9]  = 1;
-                    mezo[13, 15] = 1;
-                    mezo[14, 9]  = 1;
-                    mezo[14, 15] = 1;
-                    mezo[15, 9]  = 1;
-                    mezo[15, 15] = 1;
-                    mezo[16, 10] = 1;
-                    mezo[16, 14] = 1;
-                    mezo[17, 11] = 1;
-                    mezo[17, 12] = 1;
-                    mezo[17, 13] = 1;
+                    mezo[11, 14] = 1;
                     break;
 
                 case '2':
-                    mezo[30, 30] = 1;
                     mezo[30, 31] = 1;
-                    mezo[30, 32] = 1;
-                    mezo[30, 33] = 1;
-                    mezo[30, 34] = 1;
-                    mezo[30, 35] = 1;
-                    mezo[30, 36] = 1;
-
-                    mezo[36, 30] = 1;
-                    mezo[36, 31] = 1;
-                    mezo[36, 32] = 1;
-                    mezo[36, 33] = 1;
-                    mezo[36, 34] = 1;
-                    mezo[36, 35] = 1;
-                    mezo[36, 36] = 1;
-
-                    mezo[31, 30] = 1;
-                    mezo[32, 30] = 1;
-                    mezo[33, 30] = 1;
-                    mezo[34, 30] = 1;
-                    mezo[35, 30] = 1;
-                    mezo[36, 30] = 1;
-
-                    mezo[31, 36] = 1;
-                    mezo[32, 36] = 1;
-                    mezo[33, 36] = 1;
-                    mezo[34, 36] = 1;
-                    mezo[35, 36] = 1;
-                    mezo[36, 36] = 1;
+                    mezo[31, 31] = 1;
+                    mezo[32, 31] = 1;
+                    mezo[32, 32] = 1;
+                    mezo[33, 32] = 1;
+                    mezo[33, 33] = 1;
+                    mezo[34, 33] = 1;
+                    mezo[34, 34] = 1;
                     break;
 
                 case '3':
-                    mezo[40, 45] = 1;
-                    mezo[41, 44] = 1;
-                    mezo[41, 46] = 1;
-                    mezo[42, 43] = 1;
-                    mezo[42, 47] = 1;
+                    mezo[40, 41] = 1;
+                    mezo[41, 41] = 1;
+                    mezo[42, 41] = 1;
+                    mezo[42, 42] = 1;
                     mezo[43, 42] = 1;
-                    mezo[43, 48] = 1;
-                    mezo[44, 41] = 1;
-                    mezo[44, 49] = 1;
-                    mezo[45, 40] = 1;
-                    mezo[45, 50] = 1;
-                    mezo[46, 41] = 1;
-                    mezo[46, 49] = 1;
-                    mezo[47, 42] = 1;
-                    mezo[47, 48] = 1;
-                    mezo[48, 43] = 1;
-                    mezo[48, 47] = 1;
-                    mezo[49, 44] = 1;
-                    mezo[49, 46] = 1;
-                    mezo[50, 45] = 1;
+                    mezo[43, 43] = 1;
+                    mezo[44, 43] = 1;
+                    mezo[44, 44] = 1;
                     break;
 
                 case '4':
-                    mezo[50, 55] = 1;
-                    mezo[51, 55] = 1;
-                    mezo[52, 55] = 1;
-                    mezo[53, 55] = 1;
-                    mezo[54, 55] = 1;
-                    mezo[55, 50] = 1;
-                    mezo[55, 51] = 1;
-                    mezo[55, 52] = 1;
-                    mezo[55, 53] = 1;
-                    mezo[55, 54] = 1;
-                    mezo[55, 55] = 1;
-                    mezo[55, 56] = 1;
-                    mezo[55, 57] = 1;
-                    mezo[55, 58] = 1;
-                    mezo[55, 59] = 1;
-                    mezo[55, 60] = 1;
-                    mezo[56, 55] = 1;
-                    mezo[57, 55] = 1;
-                    mezo[58, 55] = 1;
-                    mezo[59, 55] = 1;
-                    mezo[60, 55] = 1;
+                    mezo[50, 51] = 1;
+                    mezo[51, 51] = 1;
+                    mezo[52, 51] = 1;
+                    mezo[52, 52] = 1;
+                    mezo[53, 52] = 1;
                     break;
 
 
                 case '5':
-                    mezo[60, 60] = 1;
-                    mezo[61, 60] = 1;
-                    mezo[62, 60] = 1;
-                    mezo[63, 60] = 1;
-                    mezo[64, 60] = 1;
-                    mezo[65, 60] = 1;
-                    mezo[66, 60] = 1;
-
-                    mezo[60, 60] = 1;
-                    mezo[60, 61] = 1;
-                    mezo[60, 62] = 1;
-                    mezo[60, 63] = 1;
-                    mezo[60, 64] = 1;
-                    mezo[60, 65] = 1;
-                    mezo[60, 66] = 1;
-                    mezo[60, 67] = 1;
-                    mezo[60, 68] = 1;
-                    mezo[60, 69] = 1;
-                    mezo[60, 70] = 1;
-
-                    mezo[60, 70] = 1;
-                    mezo[61, 70] = 1;
-                    mezo[62, 70] = 1;
-                    mezo[63, 70] = 1;
-                    mezo[64, 70] = 1;
-                    mezo[65, 70] = 1;
-                    mezo[66, 70] = 1;
-
-                    mezo[61, 61] = 1;
-                    mezo[61, 62] = 1;
-                    mezo[61, 63] = 1;
-                    mezo[62, 61] = 1;
                     mezo[62, 62] = 1;
-                    mezo[63, 61] = 1;
-
-                    mezo[61, 69] = 1;
-                    mezo[61, 68] = 1;
-                    mezo[61, 67] = 1;
-                    mezo[62, 69] = 1;
-                    mezo[62, 68] = 1;
-                    mezo[63, 69] = 1;
-
+                    mezo[63, 62] = 1;
+                    mezo[63, 63] = 1;
+                    mezo[64, 63] = 1;
+                    mezo[64, 64] = 1;
                     break;
 
 
@@ -206,3 +109,4 @@ namespace GameOfLife_SZFT6_CS3
 
     }
 }
+

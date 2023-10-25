@@ -15,5 +15,12 @@ for (int sor = 0; sor < 75; sor++)
     }
     Console.WriteLine();
 }
+int index = 0;
 
-Thread.Sleep(1000);
+// Itt lesz a játék fejleményei, SejtSzabály vizsgálata
+while (index < 100)
+{
+    sejtSzabaly.Szomszedok();
+    Thread.Sleep(300);
+    index++;
+}
