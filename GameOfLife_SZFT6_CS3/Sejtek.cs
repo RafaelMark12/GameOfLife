@@ -16,8 +16,8 @@ namespace GameOfLife_SZFT6_CS3
 
         public Sejtek()
         {
-            Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: ");
-            billentyukulcs = Console.ReadKey();
+            
+            // A mező alapértelmezett értékkét itt állítottuk be.
             for (int sor = 0; sor < 75; sor++)
             {
                 for (int oszlop = 0; oszlop < 75; oszlop++)
@@ -27,7 +27,9 @@ namespace GameOfLife_SZFT6_CS3
             }
 
 
-            //Kezdeti érték beállítása
+            //Megkérjük itt a felhasználót, hogy egy szám alapján milyen alakzatot rajzoljon ki. 
+            Console.Write("Kérem adja meg, hogy melyik számmal indítsuk a programot: ");
+            billentyukulcs = Console.ReadKey();
             switch (billentyukulcs.KeyChar)
             {
                 case '1':

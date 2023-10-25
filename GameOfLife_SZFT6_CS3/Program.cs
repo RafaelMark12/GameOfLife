@@ -1,26 +1,17 @@
 ﻿using GameOfLife_SZFT6_CS3;
 
-Sejtek mezo = new();
+
 SejtSzabaly sejtSzabaly = new();
 
 // A játék kezdeti kiíratása, az alakzat kiválasztása.
+sejtSzabaly.KezdoTer();
 
-Console.Clear();
-
-for (int sor = 0; sor < 75; sor++)
-{
-    for (int oszlop = 0; oszlop < 75; oszlop++)
-    {
-        Console.Write(mezo.mezo[sor, oszlop] == 1 ? "█" : ".");
-    }
-    Console.WriteLine();
-}
 int index = 0;
 
 // Itt lesz a játék fejleményei, SejtSzabály vizsgálata
 while (index < 100)
 {
     sejtSzabaly.Szomszedok();
-    Thread.Sleep(300);
+    Thread.Sleep(3000);
     index++;
 }
