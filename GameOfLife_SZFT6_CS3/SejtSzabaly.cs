@@ -26,13 +26,20 @@ namespace GameOfLife_SZFT6_CS3
                 Console.WriteLine();
             }
 
+            // Pár sort kihagyunk, hogy a számokat is normálisan láthassuk
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
             // Számok alapján a mező felépítve
-
-
-
-
-
-
+            for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
+            {
+                for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
+                {
+                    Console.Write(eletter.mezo[sor, oszlop] == 1 ? "1" : "0");
+                }
+                Console.WriteLine();
+            }
         }
 
 
@@ -105,9 +112,16 @@ namespace GameOfLife_SZFT6_CS3
                 }
                 Console.WriteLine();
             }
-
+            Console.WriteLine();
             // Változott mező számokkal való megjelenítés alapján 
-
+            for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
+            {
+                for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
+                {
+                    Console.Write(eletter.mezo[sor, oszlop] == 1 ? "1" : "0");
+                }
+                Console.WriteLine();
+            }
 
 
 

@@ -17,7 +17,7 @@ namespace GameOfLife_SZFT6_CS3
         public Sejtek()
         {
             
-            // A mező alapértelmezett értékkét itt állítottuk be.
+            // A mező alapértelmezett értékét itt állítottuk be.
             for (int sor = 0; sor < 75; sor++)
             {
                 for (int oszlop = 0; oszlop < 75; oszlop++)

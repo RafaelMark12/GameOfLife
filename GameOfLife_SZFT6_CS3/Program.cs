@@ -6,12 +6,20 @@ SejtSzabaly sejtSzabaly = new();
 // A játék kezdeti kiíratása, az alakzat kiválasztása.
 sejtSzabaly.KezdoTer();
 
-int index = 0;
-
 // Itt lesz a játék fejleményei, SejtSzabály vizsgálata
-while (index < 100)
+while (true)
 {
+    // Ha escape gombot nyom az ember, akkor álljon le a program
+    if (Console.KeyAvailable)
+    {
+        var kilep = Console.ReadKey(true).Key;
+        if (kilep == ConsoleKey.Escape)
+        {
+            break;
+        }
+    }
+
+    // Konkrétan a sejtek változásának metódusa
     sejtSzabaly.Szomszedok();
-    Thread.Sleep(3000);
-    index++;
+    Thread.Sleep(5000);
 }
