@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj": {}
+    "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\negyedikgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj": {
+    "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\negyedikgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\negyedikgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
         "projectName": "GameOfLife_SZFT6_CS3",
-        "projectPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
+        "projectPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\negyedikgit\\GameOfLife_SZFT6_CS3\\GameOfLife_SZFT6_CS3.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\GameOfLife_SZFT6_CS3\\obj\\",
+        "outputPath": "C:\\Users\\rafae\\OneDrive\\Asztali gép\\zgit\\negyedikgit\\GameOfLife_SZFT6_CS3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual_Studi_2022\\Shared_components\\NuGetPackages"

@@ -21,17 +21,17 @@ namespace GameOfLife_SZFT6_CS3
 
             // Először összefűzzük az értékeket egy szövegbe, hogy egyszerre jelenítse meg az értékeket.
 
-            string mezokEgyben = "";
+            eletter.MezokEgyben = "";
 
             for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
             {
                 for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
                 {
-                    mezokEgyben += eletter.mezo[sor, oszlop] ? "1" : "0";
+                    eletter.MezokEgyben += eletter.mezo[sor, oszlop] ? "1" : "0";
                 }
-                mezokEgyben += Environment.NewLine;
+                eletter.MezokEgyben += Environment.NewLine;
             }
-            Console.WriteLine(mezokEgyben);
+            Console.WriteLine(eletter.MezokEgyben);
 
             // Pár sort kihagyunk, hogy a számokat is normálisan láthassuk
             Console.WriteLine();
@@ -40,21 +40,21 @@ namespace GameOfLife_SZFT6_CS3
 
 
             // Változott mező ábrákkal való megjelenítés alapján 
-            mezokEgyben = "";
+            eletter.MezokEgyben = "";
 
             for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
             {
                 for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
                 {
-                    mezokEgyben += eletter.mezo[sor, oszlop] ? "█" : ".";
+                    eletter.MezokEgyben += eletter.mezo[sor, oszlop] ? "█" : ".";
                 }
-                mezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
+                eletter.MezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
             }
 
             // Most jelenítjük meg az összes mezőt egyben ábrákkal.
-            Console.WriteLine(mezokEgyben);
+            Console.WriteLine(eletter.MezokEgyben);
 
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
         }
 
 
@@ -109,23 +109,20 @@ namespace GameOfLife_SZFT6_CS3
 
                     if (eletter.mezo[sor, oszlop])
                     {
-                        if (sejtvaltozas == 2 || sejtvaltozas == 3)
-                        {
-                            eletter.mezo[sor, oszlop] = true;
-                        }
-                        else
+                        // Ha a cella él, akkor a számított értéknek 2 vagy 3 szomszédja kell lennie a sejt életben maradásához
+                        if (sejtvaltozas != 2 && sejtvaltozas != 3)
                         {
                             eletter.mezo[sor, oszlop] = false; // A cella meghal
                         }
                     }
                     else
                     {
+                        // Ha a cella halott, akkor a számított értéknek pontosan 3 szomszédja kell lennie a sejt újjászületéséhez
                         if (sejtvaltozas == 3)
                         {
                             eletter.mezo[sor, oszlop] = true; // A cella újjászületik
                         }
                     }
-
                 }
             }
 
@@ -136,17 +133,17 @@ namespace GameOfLife_SZFT6_CS3
 
             // Itt is összefűzzük az értékeket, hogy egyszerre legyen megjelenítve a console applikációban
 
-            string mezokEgyben = "";
+            eletter.MezokEgyben = "";
 
             for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
             {
                 for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
                 {
-                    mezokEgyben += eletter.mezo[sor, oszlop] ? "1" : "0";
+                    eletter.MezokEgyben += eletter.mezo[sor, oszlop] ? "1" : "0";
                 }
-                mezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
+                eletter.MezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
             }
-            Console.WriteLine(mezokEgyben);
+            Console.WriteLine(eletter.MezokEgyben);
 
             // Pár sort kihagyunk itt is, hogy az ábrákat is normálisan láthassuk
             Console.WriteLine();
@@ -155,22 +152,22 @@ namespace GameOfLife_SZFT6_CS3
 
 
             // Változott mező ábrákkal való megjelenítés alapján 
-            mezokEgyben = "";
+            eletter.MezokEgyben = "";
 
             for (int sor = 0; sor < eletter.mezo.GetLength(0); sor++)
             {
                 for (int oszlop = 0; oszlop < eletter.mezo.GetLength(1); oszlop++)
                 {
-                    mezokEgyben += eletter.mezo[sor, oszlop] ? "█" : ".";
+                    eletter.MezokEgyben += eletter.mezo[sor, oszlop] ? "█" : ".";
                 }
-                mezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
+                eletter.MezokEgyben += Environment.NewLine; // Egy sor után sortörés, hogy a következő sort ne a legelső sorba jelenítse meg.
             }
 
             // Most jelenítjük meg az összes mezőt egyben ábrákkal.
-            Console.WriteLine(mezokEgyben);
+            Console.WriteLine(eletter.MezokEgyben);
 
             //Itt egy időzítő, hogy mikor menjen a sejtváltozás következő köre
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
 
         }
